@@ -1,3 +1,5 @@
+#vigac ara, CHVEN gavaketet (⁠⌐⁠■⁠-⁠■⁠)
+#komunistebi ar vart
 import requests
 import csv
 from bs4 import BeautifulSoup
