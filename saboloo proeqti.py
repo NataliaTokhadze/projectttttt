@@ -29,3 +29,9 @@ for movie in movies:
     name.remove(str(movie.find('span', class_= 'tMeterScore').text))
     name = ' '.join(name)
 
+    #BOMJI LOTI
+    year = movie.find('span', class_= 'subtle start-year').text
+    movie_rating = movie.find('span', class_ = 'tMeterScore').text
+    #au puls magistvis mogvcemen???
+
+
