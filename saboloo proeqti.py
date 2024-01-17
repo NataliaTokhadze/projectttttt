@@ -16,4 +16,11 @@ soup = BeautifulSoup(website, 'lxml')
 
 movies = soup.find_all('div', class_= 'row countdown-item')
 c = 0
+#aqamde ertad gavaketet, radgan ioli iyo
 
+
+#sofoooo aq daamate sheni name:
+#for
+    year = movie.find('span', class_= 'subtle start-year').text
+
+    movie_rating = movie.find('span', class_ = 'tMeterScore').text
